@@ -59,16 +59,17 @@ def lsl_sanity_check(filename):
     
     # ---------------------------------------------
     # Check the streams
-    # ---------------------------------------------    
-    for stream in streams:
-        
+    # ---------------------------------------------
+    i = 0
+    for stream in streams:        
+        i += 1
         name = stream["info"]["name"][0]
         n_chans = int(stream["info"]["channel_count"][0])
         fs = float(stream["info"]["nominal_srate"][0])
         labels, types, units = get_ch_info(stream)
         
         logger.info("-----------------------------------------------------")
-        logger.info("Found stream '{}' ({} channels, sampling rate {}Hz).".format(name, n_chans, fs))
+        logger.info("[{}] Found stream '{}' ({} channels, sampling rate {}Hz).".format(i, name, n_chans, fs))
         logger.info("Channels: {}".format(labels))        
         logger.info("Data shape: {}\n".format(np.array(stream["time_series"]).shape))
         logger.info(stream["time_series"])
