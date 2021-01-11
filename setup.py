@@ -9,8 +9,10 @@ setup(
     url='https://github.com/fcbg-hnp/lsl_sanity_check',
     description='Check the recorded LSL streams sanity.',
     long_description=open('README.md').read(),
+    python_requires='>=3.6',
     packages=find_packages(),
     install_requires=[
         'pyxdf',
+        'numpy'
     ]
 )
