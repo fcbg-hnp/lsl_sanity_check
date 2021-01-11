@@ -1,10 +1,10 @@
 # Introduction
 
-**lsl_sanity_check** has been implemented for a quick sanity check of the LSL streams of a .xdf file (recorded by [LabRecorder](https://github.com/labstreaminglayer/App-LabRecorder)).
+**lsl_sanity_check** has been implemented for a quick sanity check of the LSL streams contained in a .xdf file (recorded with [LabRecorder](https://github.com/labstreaminglayer/App-LabRecorder)).
 
 # Prerequisites
  **lsl_sanity_check** depends on following packages:
-    - pyxdf
+   - pyxdf
 
 # Installation
 
@@ -14,7 +14,7 @@ git clone https://github.com/fcbg-hnp/lsl_sanity_check
 ```
 Run setup script:
 ```
-python setup.py develop
+pip install -e .
 ```
 
 # Usage
