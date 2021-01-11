@@ -4,6 +4,7 @@
 
 # Prerequisites
  **lsl_sanity_check** depends on following packages:
+   - numpy
    - pyxdf
 
 # Installation
@@ -19,9 +20,16 @@ pip install -e .
 
 # Usage
 
-##From terminal
+### From terminal
 ```
 cd ./lsl_sanity_check
 python lsl_sanity_check.py
 ```
 Then provided the path to the .xdf file to analyse.
+
+### As a module
+```
+from lsl_sanity_check import lsl_sanity_check
+
+lsl_sanity_check("path2file")
+```
