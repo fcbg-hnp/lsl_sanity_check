@@ -38,5 +38,3 @@ lsl_sanity_check("path2file")
 ```
 pip uninstall lsl_sanity_check
 ```
-
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
