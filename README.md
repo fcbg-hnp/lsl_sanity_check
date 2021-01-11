@@ -2,6 +2,8 @@
 
 **lsl_sanity_check** has been implemented for a quick sanity check of the LSL streams contained in a .xdf file (recorded with [LabRecorder](https://github.com/labstreaminglayer/App-LabRecorder)).
 
+It will load the file and display the available stream's info + data.
+
 # Prerequisites
  **lsl_sanity_check** uses Python 3 and depends on following packages:
    - numpy
