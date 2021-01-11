@@ -33,3 +33,8 @@ from lsl_sanity_check import lsl_sanity_check
 
 lsl_sanity_check("path2file")
 ```
+
+# Uninstallation
+```
+pip uninstall lsl_sanity_check
+```
