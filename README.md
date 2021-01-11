@@ -3,7 +3,7 @@
 **lsl_sanity_check** has been implemented for a quick sanity check of the LSL streams contained in a .xdf file (recorded with [LabRecorder](https://github.com/labstreaminglayer/App-LabRecorder)).
 
 # Prerequisites
- **lsl_sanity_check** depends on following packages:
+ **lsl_sanity_check** uses Python 3 and depends on following packages:
    - numpy
    - pyxdf
 
@@ -38,3 +38,5 @@ lsl_sanity_check("path2file")
 ```bash
 pip uninstall lsl_sanity_check
 ```
+
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
